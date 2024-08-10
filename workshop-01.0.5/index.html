@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Management</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Product Management</h1>
+
+    <h2>Lista de Productos</h2>
+    <div id="products-container"></div>
+
+    <div class="total-price-div">
+        <h2>Precio Total</h2>
+        <p id="total-price"></p>
+    </div>
+
+    <div class="container2">
+        <h2>Filtrar por Categoría</h2>
+        <div id="category-filter">
+            <select id="category-select">
+                <option >Selecciona una categoría</option>
+            </select>
+        </div>
+        <div id="filtered-products"></div>
+    </div>
+
+    <div class="container2">
+        <h2>Buscar Producto</h2>
+        <div>
+            <input type="text" id="search-input" placeholder="Nombre del producto" />
+        </div>
+        <div id="search-result"></div>
+    </div>
+
+    <div class="avaliability-div">
+        <h2>Disponibilidad</h2>
+        <p id="availability"></p>
+    </div>
+
+    <h2>Nombres de Productos</h2>
+    <ul id="product-names"></ul>
+
+    <script src="index.js"></script>
+  </body>
+</html>

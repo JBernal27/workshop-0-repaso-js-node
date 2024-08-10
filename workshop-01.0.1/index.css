@@ -1,0 +1,11 @@
+.completed{
+    display: flex;
+    font-weight: bold;
+    gap: 20px;
+    text-decoration: line-through;
+}
+
+.uncompleted{
+    display: flex;
+    gap: 20px;
+}

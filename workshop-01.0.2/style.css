@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#note-input {
+    width: 300px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+button {
+    margin: 5px;
+}
+.note {
+    border: 2px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.important {
+    border: 2px solid red;
+}
+.note-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

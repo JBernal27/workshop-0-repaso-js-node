@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 div{
+    width: 90%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin: 8px;
+}
+
+#products-container, #filtered-products, #search-result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.product {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: calc(29% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+
+.product:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    scale: 1.05;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #555;
+}
+
+#product-names li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.total-price-div{
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.avaliability-div{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    padding: 0px 15px;
+    text-align: center;
+}
+.total{
+    color: green;
+}
+
+.faltante{
+    color: red;
+}
+
+#product-names{
+    padding: 0px 50px;
+    list-style: none;
+}
